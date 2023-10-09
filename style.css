@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+.nav{
+    width: 100%; 
+    background-color: #f35136;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top:0;
+    padding: 3rem;
+}
+
+.nav li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    margin-left: 2rem;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.nav__logo-img{
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+    width: 5.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+main{
+    padding: 17rem 40rem;
+}
+
+main h1{
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+article{
+    margin: 0 0 2rem 0;
+}
+
+footer{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+    position: fixed;
+    bottom:0;
+}
